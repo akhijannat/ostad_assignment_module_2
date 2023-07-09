@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1 (Module 2)</title>
+    <!-- Tailwind css CDN link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="w-2/3 mx-auto">
+
+<!------------------ Exercise 1 ------------------>
+<div class="mt-8 border-b py-3">
+    <div class="p-5 bg-gradient-to-b from-slate-300 to-slate-100 rounded">
+        <h1 class="text-3xl font-bold bg-teal-300 p-1 text-center rounded-lg">Exercise 1</h1>
+        <span class="text-red-600 font-extrabold italic">Task :-</span>
+        <p>Write a function named destructureExample that takes in an object and an array as parameters. The function
+            should use destructuring to extract the values 'name' and 'age' from the object and the values at index 0
+            and index 2 from the array. The function should then return an object with the extracted values as
+            properties with name and age.</p>
+    </div>
+
+    <div class="mt-5 text-center">
+        <h3 class="text-red-600 font-extrabold underline">Task Result 😎</h3>
+        <p class="">Name : <span id="name" class="font-extrabold"></span></p>
+        <p class="">Age : <span id="age" class="font-extrabold"></span></p>
+    </div>
+</div>
+
+<!------------------ Exercise 2 ------------------>
+<div class="mt-8 border-b py-3">
+    <div class="p-5 bg-gradient-to-b from-slate-300 to-slate-100 rounded">
+        <h1 class="text-3xl font-bold bg-teal-300 p-1 text-center rounded-lg">Exercise 2</h1>
+        <span class="text-red-600 font-extrabold italic">Task :-</span>
+        <p>Write a function named sumNumbers that takes in multiple numbers as arguments using the rest operator. The function should return the sum of all the numbers.</p>
+    </div>
+
+    <div class="mt-5 text-center">
+        <h3 class="text-red-600 font-extrabold underline">Task Result 😎</h3>
+        <p class="">Sum Number : <span id="sumNum"class="font-extrabold"></span></p>
+    </div>
+</div>
+
+<!------------------ Exercise 3 ------------------>
+<div class="mt-8 border-b py-3">
+    <div class="p-5 bg-gradient-to-b from-slate-300 to-slate-100 rounded">
+        <h1 class="text-3xl font-bold bg-teal-300 p-1 text-center rounded-lg">Exercise 3</h1>
+        <span class="text-red-600 font-extrabold italic">Task :-</span>
+        <p> Write a function named createGreeting that takes in a name as a parameter and returns a greeting message using template literals. The message should be in the format: "Hello, [name]! Welcome to our website."</p>
+    </div>
+
+    <div class="mt-5 text-center">
+       <p id="showmsg" class="font-extrabold"></p>
+    </div>
+</div>
+
+<!------------------ Exercise 4 ------------------>
+<div class="mt-8 border-b py-3">
+    <div class="p-5 bg-gradient-to-b from-slate-300 to-slate-100 rounded">
+        <h1 class="text-3xl font-bold bg-teal-300 p-1 text-center rounded-lg">Exercise 4</h1>
+        <span class="text-red-600 font-extrabold italic">Task :-</span>
+        <p> Write a function named isEven that takes in a number as a parameter and returns the string "Even" if the number is even, and "Odd" if the number is odd. Use a ternary operator instead of an if/else statement.</p>
+    </div>
+
+    <div class="mt-5 text-center">
+       <p id="showEvenOdd" class="font-extrabold"></p>
+    </div>
+</div>
+
+<!------------------ Exercise 5 ------------------>
+<div class="mt-8 border-b py-3">
+    <div class="p-5 bg-gradient-to-b from-slate-300 to-slate-100 rounded">
+        <h1 class="text-3xl font-bold bg-teal-300 p-1 text-center rounded-lg">Exercise 5</h1>
+        <span class="text-red-600 font-extrabold italic">Task :-</span>
+        <p> Convert the following function to an arrow function:</p>
+        <p>function multiply(a, b) {<br>
+            return a * b;<br>
+          }</p>
+    </div>
+
+    <div class="mt-5 text-center">
+       <p id="arrowFunction" class="font-extrabold"></p>
+    </div>
+</div>
+
+<!------------------ Exercise 6 ------------------>
+<div class="mt-8 border-b py-3">
+    <div class="p-5 bg-gradient-to-b from-slate-300 to-slate-100 rounded">
+        <h1 class="text-3xl font-bold bg-teal-300 p-1 text-center rounded-lg">Exercise 6</h1>
+        <span class="text-red-600 font-extrabold italic">Task :-</span>
+        <p> Write a function named getLargestNumber that takes in two numbers as parameters. The function should return the larger number using short-circuiting and logical operators (&&, ||, ??).</p>
+    </div>
+
+    <div class="mt-5 text-center">
+       <p class="">Largest Number : <span id="showLargestNumber"class="font-extrabold"></span></p>
+    </div>
+</div>
+
+<!------------------ Exercise 7 ------------------>
+<div class="mt-8 border-b py-3">
+    <div class="p-5 bg-gradient-to-b from-slate-300 to-slate-100 rounded">
+        <h1 class="text-3xl font-bold bg-teal-300 p-1 text-center rounded-lg">Exercise 7</h1>
+        <span class="text-red-600 font-extrabold italic">Task :-</span>
+        <p> Write a function named getAddressCity that takes in an object representing a person's address. The address object has properties 'street', 'city', and 'country'. The function should return the value of the 'city' property if it exists, or the string "Unknown" if it doesn't exist, using optional chaining.</p>
+    </div>
+
+    <div class="mt-5 text-center">
+       <p class="">City : <span id="showCityName"class="font-extrabold"></span></p>
+    </div>
+</div>
+
+<!------------------ Exercise 8 ------------------>
+<div class="mt-8 border-b py-3">
+    <div class="p-5 bg-gradient-to-b from-slate-300 to-slate-100 rounded">
+        <h1 class="text-3xl font-bold bg-teal-300 p-1 text-center rounded-lg">Exercise 8</h1>
+        <span class="text-red-600 font-extrabold italic">Task :-</span>
+        <p>Write a function named doubleNumbers that takes in an array of numbers and returns a new array with each number doubled using the array map method.</p>
+    </div>
+
+    <div class="mt-5 text-center">
+       <p class="">Number Doubled : <span id="showDoubNum"class="font-extrabold"></span></p>
+    </div>
+</div>
+
+<!------------------ Exercise 9 ------------------>
+<div class="mt-8 border-b py-3">
+    <div class="p-5 bg-gradient-to-b from-slate-300 to-slate-100 rounded">
+        <h1 class="text-3xl font-bold bg-teal-300 p-1 text-center rounded-lg">Exercise 9</h1>
+        <span class="text-red-600 font-extrabold italic">Task :-</span>
+        <p>Write a function named filterEvenNumbers that takes in an array of numbers and returns a new array with only the even numbers using the array filter method.</p>
+    </div>
+
+    <div class="mt-5 text-center">
+       <p class="">Even Numbers : <span id="filterEven"class="font-extrabold"></span></p>
+    </div>
+</div>
+
+<!------------------ Exercise 10 ------------------>
+<div class="mt-8 border-b py-3">
+    <div class="p-5 bg-gradient-to-b from-slate-300 to-slate-100 rounded">
+        <h1 class="text-3xl font-bold bg-teal-300 p-1 text-center rounded-lg">Exercise 10</h1>
+        <span class="text-red-600 font-extrabold italic">Task :-</span>
+        <p>Write a function named sumArray that takes in an array of numbers and returns the sum of all the numbers using the array reduce method.</p>
+    </div>
+
+    <div class="mt-5 text-center">
+       <p class="">Sum Numbers using reduce : <span id="sumNumReduce"class="font-extrabold"></span></p>
+    </div>
+</div>
+
+<!------------------ Exercise 11 ------------------>
+<div class="mt-8 border-b py-3">
+    <div class="p-5 bg-gradient-to-b from-slate-300 to-slate-100 rounded">
+        <h1 class="text-3xl font-bold bg-teal-300 p-1 text-center rounded-lg">Exercise 11</h1>
+        <span class="text-red-600 font-extrabold italic">Task :-</span>
+        <p>Write a function named sortNumbers that takes in an array of numbers and returns a new array with the numbers sorted in ascending order using the array sort method.</p>
+    </div>
+
+    <div class="mt-5 text-center">
+       <p class="">Sort Numbers : <span id="sortNum"class="font-extrabold"></span></p>
+    </div>
+</div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
